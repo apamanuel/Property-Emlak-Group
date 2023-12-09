@@ -1,0 +1,9 @@
+.container{
+    overflow: hidden;
+    padding: 0px;
+    width: 35px;
+}
+
+.image{
+    margin: 0 auto;
+}
