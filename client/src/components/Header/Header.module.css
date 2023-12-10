@@ -1,0 +1,56 @@
+.container{
+    display: grid;
+    grid-template-columns: 18% 30% auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: stretch;
+    text-align: center;
+    height: 125px;
+    padding: 0px;
+    margin: 0px;
+    background-color: #203359;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    grid-row:  1/4;
+    grid-column: 1/2;
+    object-fit: cover;
+    overflow:hidden;
+}
+
+.navBar{
+    grid-row: 3/4;
+    grid-column: 2/6;
+    padding: 0px;
+    color: white;
+}
+
+.currency{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    padding: 0px;
+    margin: 5px;
+    width: 70%;
+    border: 1px solid #F2C879;
+    color:white;
+}
+
+.languages{
+    grid-row: 1/2;
+    grid-column: 4/5;
+    padding: 0px;
+    margin: 5px;
+    color: white;
+}
+
+.btnContact{
+    grid-row: 1/2;
+    grid-column: 5/6;
+    padding: 0px;
+    object-fit:contain;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 5px;
+}

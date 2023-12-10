@@ -1,0 +1,14 @@
+.container{
+    padding: 0px;
+    margin: 0px;
+}
+
+.listCurrency{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: stretch;
+    text-align: center;
+    list-style-type: none;
+    font-size: x-small;
+    padding: 0px;
+}

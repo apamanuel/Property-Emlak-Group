@@ -1,0 +1,18 @@
+.container{
+    padding: 0px;
+}
+
+.listLanguages{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 0px;
+    list-style-type: none;
+    justify-content:stretch;
+    text-align: center;
+    font-size: x-small;
+
+}
+
+.listItem{
+    border-right: 1px solid #F2C879;
+}

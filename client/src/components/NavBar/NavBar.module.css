@@ -1,0 +1,18 @@
+
+
+.list{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: stretch;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px;
+}
+
+li{
+    cursor: pointer;
+}
+
+li:hover{
+    color: #F2C53D;
+}
