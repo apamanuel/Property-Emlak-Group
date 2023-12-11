@@ -21,6 +21,9 @@ const NavBar = ()=>{
                 <li>
                     Contact us
                 </li>
+                <li>
+                    Login
+                </li>
             </ul>
         </div>
     );
