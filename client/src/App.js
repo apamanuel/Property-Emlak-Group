@@ -1,12 +1,22 @@
-import Layout from "./components/shared/Layout";
-import Hero from "./components/Hero/Hero";
+import Home from "./components/views/Home/Home";
+import ForSale from "./components/views/For sale/ForSale";
+import Documents from "./components/views/Documents/Documents";
+import AboutUs from "./components/views/AboutUs/AboutUs";
+import ContactUs from "./components/views/ContactUs/ContactUs";
+import Login from "./components/views/Login/Login";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Layout>
-        <Hero />
-      </Layout>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/forSale" element={<ForSale />} />
+        <Route path="/documents" element={<Documents />} />
+        <Route path="/aboutUs" element={<AboutUs/>} />
+        <Route path="/contactUs" element={<ContactUs/>} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </div>
   );
 }
