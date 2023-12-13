@@ -2,7 +2,7 @@
 
 .list{
     display:grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     justify-content: stretch;
     text-align: center;
     list-style-type: none;
