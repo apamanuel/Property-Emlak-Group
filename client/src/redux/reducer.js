@@ -1,5 +1,5 @@
 import { GET_FEATURED, GET_PROPERTIES } from "./actions-types";
-
+import image from "../assets/Logo Property Global Emlak.jpg"
 const initialState = {
     featured: [],
     properties: [
@@ -21,7 +21,7 @@ const initialState = {
             },
             price: 200000,
             ref: 'PTF6337',
-            image:'https://drive.google.com/file/d/1EnUAsz9EjrCfqiOkPilwvI9eYx9CYFHr/view?usp=sharing',
+            image:"https://i.ibb.co/hYhK6RZ/image-1.jpg",
         },
         {
             id: 2,
@@ -41,7 +41,7 @@ const initialState = {
             },
             price: 2141200,
             ref: 'PTF6338',
-            image:'https://drive.google.com/file/d/1HUVVu_lmQAF9fjGwA0kVfIVwCE8W3ZAE/view?usp=sharing',
+            image: "https://i.ibb.co/Kb7mb5m/ef3c8d22ddce09d239766c637e913dd2-890x440.jpg",
         },
         {
             id: 3,
@@ -61,7 +61,7 @@ const initialState = {
             },
             price: 2141200,
             ref: 'PTF6338',
-            image:'https://drive.google.com/file/d/1HUVVu_lmQAF9fjGwA0kVfIVwCE8W3ZAE/view?usp=sharing',
+            image: "https://i.ibb.co/r3gnzjr/51b22d74d4c8403badeb37294784d37d.jpg",
         }
     ]
 };
