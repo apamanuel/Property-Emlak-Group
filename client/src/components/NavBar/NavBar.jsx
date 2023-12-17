@@ -7,22 +7,22 @@ const NavBar = ()=>{
         <div className={style.container}>
             <ul className={style.list}>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <Link to='/' className={style.navigation}>Home</Link>
                 </li>
                 <li>
-                    <Link to="/forSale">For sale</Link>
+                    <Link to="/forSale" className={style.navigation}>For sale</Link>
                 </li>
                 <li>
-                    <Link to="/documents">Documentation</Link>
+                    <Link to="/documents" className={style.navigation}>Documentation</Link>
                 </li>
                 <li>
-                    <Link to="/aboutUs">About us</Link>
+                    <Link to="/aboutUs" className={style.navigation}>About us</Link>
                 </li>
                 <li>
-                    <Link to="/contactUs">Contact us</Link>
+                    <Link to="/contactUs" className={style.navigation}>Contact us</Link>
                 </li>
                 <li>
-                    <Link to="/login">Login</Link>
+                    <Link to="/login" className={style.navigation}>Login</Link>
                 </li>
             </ul>
         </div>
