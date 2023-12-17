@@ -1,0 +1,2 @@
+export const GET_FEATURED = 'GET_FEATURED';
+export const GET_PROPERTIES = 'GET_PROPERTIES';
