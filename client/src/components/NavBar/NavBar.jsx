@@ -7,22 +7,22 @@ const NavBar = ()=>{
         <div className={style.container}>
             <ul className={style.list}>
                 <li>
-                    Home
+                    <Link to='/'>Home</Link>
                 </li>
                 <li>
-                    For sale
+                    <Link to="/forSale">For sale</Link>
                 </li>
                 <li>
-                    Documentation
+                    <Link to="/documents">Documentation</Link>
                 </li>
                 <li>
-                    About us
+                    <Link to="/aboutUs">About us</Link>
                 </li>
                 <li>
-                    Contact us
+                    <Link to="/contactUs">Contact us</Link>
                 </li>
                 <li>
-                    Login
+                    <Link to="/login">Login</Link>
                 </li>
             </ul>
         </div>
