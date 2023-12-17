@@ -13,7 +13,7 @@ const NavBar = ()=>{
                     <Link to="/forSale" className={style.navigation}>For sale</Link>
                 </li>
                 <li>
-                    <Link to="/documents" className={style.navigation}>Documentation</Link>
+                    <Link to="/services" className={style.navigation}>Services</Link>
                 </li>
                 <li>
                     <Link to="/aboutUs" className={style.navigation}>About us</Link>
