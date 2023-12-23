@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     height: 25px;
-    width: 320px;
+    width: 300px;
 }
 
 .iconContainer{
