@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import style from "../shared/Card.module.css";
+import FeaturesCard from "../FeaturesCard/FeaturesCard";
 
 const Card = (props)=>{
     const { id,title, description, features, price, image } = props.property;
@@ -19,13 +20,13 @@ const Card = (props)=>{
                 {description}
             </div>
             <div className={style.features}>
-                Features
+                <FeaturesCard features={features}/>
             </div>
             <div className={style.price}>
-                $ {price}
+                <p>$ {price}</p>
             </div>
-            <div className={style.btn}>
-                <button>QUICK ENQUIRE</button>
+            <div className={style.btnContainer}>
+                <button className={style.btn}>QUICK ENQUIRE</button>
             </div>
         </div>
     );

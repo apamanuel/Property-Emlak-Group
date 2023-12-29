@@ -1,5 +1,5 @@
 import { GET_FEATURED, GET_PROPERTIES } from "./actions-types";
-import image from "../assets/Logo Property Global Emlak.jpg"
+
 const initialState = {
     featured: [],
     properties: [
