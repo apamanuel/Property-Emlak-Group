@@ -12,12 +12,12 @@ const Card = (props)=>{
                 <img src={image} alt='property' className={style.image} />
             </div>
             <div className={style.title}>
-                <Link to={`/${id}`}>
-                    {title}
+                <Link to={`/${id}`} className={style.link}>
+                    <h3>{title}</h3>
                 </Link>                
             </div>
             <div className={style.description}>
-                {description}
+                <p>{description}</p>
             </div>
             <div className={style.features}>
                 <FeaturesCard features={features}/>
