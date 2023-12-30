@@ -1,11 +1,15 @@
 import React from "react";
 import Layout from "../../shared/Layout";
+import Card from "../../shared/Card";
+import { useSelector } from "react-redux";
 
 const ForSale = ()=>{
+    const properties = useSelector(state=>state.properties);
+    const property = properties[0];
     return (
         <div>
             <Layout>
-                <h1>ESTE ES LA VISTA FOR SALE</h1>
+                <Card property={property} key={property.id}/>
             </Layout>            
         </div>
     );
