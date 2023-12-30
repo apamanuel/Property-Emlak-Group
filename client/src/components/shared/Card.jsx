@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import style from "../shared/Card.module.css";
 import FeaturesCard from "../FeaturesCard/FeaturesCard";
+import { formatNumber } from "../../helpers/formatNumber";
 
 const Card = (props)=>{
     const { id,title, description, features, price, image } = props.property;
-    console.log(id);
+    const formatPrice = formatNumber(price);
     return(
         <div className={style.container}>
             <div className={style.imageContainer}>
@@ -23,7 +24,7 @@ const Card = (props)=>{
                 <FeaturesCard features={features}/>
             </div>
             <div className={style.price}>
-                <p>$ {price}</p>
+                <p>$ {formatPrice}</p>
             </div>
             <div className={style.btnContainer}>
                 <button className={style.btn}>QUICK ENQUIRE</button>
