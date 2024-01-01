@@ -1,12 +1,17 @@
 import React from "react";
 import Layout from "../../shared/Layout";
+import Hero from "../../Hero/Hero";
+import FeaturedProperties from "../../FeaturedProperties/FeaturedProperties";
 import style from "../Home/Home.module.css";
 
 const Home = ()=>{
     return (
         <div>
             <Layout>
-                <h1>ESTE ES EL HOME</h1>
+                <div className={style.container}>
+                    <Hero />
+                    <FeaturedProperties />
+                </div>
             </Layout>
         </div>
     );

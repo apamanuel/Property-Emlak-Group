@@ -11,7 +11,7 @@ const FeaturedProperties = ()=>{
 
     return (
         <div className={style.container}>
-            <h2 className={style.title}>Featured Properties</h2>
+            <h2 className={style.title}>Today's Recommended Turkish Property</h2>
             <div className={style.properties}>
                 {featured}
             </div>
